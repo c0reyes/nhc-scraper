@@ -69,7 +69,7 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
-							<mainClass>hurricane.all.in.one.HAIOApplication</mainClass>
+							<mainClass>nhc.scraper.HurricaneApplication</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
