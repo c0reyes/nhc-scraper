@@ -1,4 +1,4 @@
-package nhc.scraper.util.noaa;
+package nhc.scraper.client.noaa;
 
 import java.io.IOException;
 import java.net.MalformedURLException;

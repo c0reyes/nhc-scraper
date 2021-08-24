@@ -1,4 +1,4 @@
-package nhc.scraper.util.ncar;
+package nhc.scraper.client.ncar;
 
 import java.io.IOException;
 

@@ -11,17 +11,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import lombok.extern.slf4j.Slf4j;
+import nhc.scraper.client.ncar.Image;
+import nhc.scraper.client.ncar.NCAR;
+import nhc.scraper.client.noaa.MESO;
+import nhc.scraper.client.noaa.NHC;
+import nhc.scraper.client.noaa.Zone;
 import nhc.scraper.entity.ncar.Model;
 import nhc.scraper.entity.noaa.Hurricane;
 import nhc.scraper.entity.noaa.Meso;
 import nhc.scraper.repository.ncar.ModelRepository;
 import nhc.scraper.repository.noaa.HurricaneRepository;
 import nhc.scraper.repository.noaa.MesoRepository;
-import nhc.scraper.util.ncar.Image;
-import nhc.scraper.util.ncar.NCAR;
-import nhc.scraper.util.noaa.MESO;
-import nhc.scraper.util.noaa.NHC;
-import nhc.scraper.util.noaa.Zone;
 
 @Slf4j
 @Service

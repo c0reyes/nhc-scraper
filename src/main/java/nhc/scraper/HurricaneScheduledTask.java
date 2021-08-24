@@ -5,8 +5,8 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 import lombok.extern.slf4j.Slf4j;
+import nhc.scraper.client.noaa.Zone;
 import nhc.scraper.service.HaioServiceImpl;
-import nhc.scraper.util.noaa.Zone;
 
 @Slf4j
 @Component

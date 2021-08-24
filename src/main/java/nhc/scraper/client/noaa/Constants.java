@@ -1,4 +1,4 @@
-package nhc.scraper.util.noaa;
+package nhc.scraper.client.noaa;
 
 public class Constants {
 	public static String CYCLONE = "Cyclone";
