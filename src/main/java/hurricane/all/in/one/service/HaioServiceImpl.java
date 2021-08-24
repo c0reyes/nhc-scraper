@@ -16,6 +16,7 @@ import hurricane.all.in.one.entity.noaa.Meso;
 import hurricane.all.in.one.repository.ncar.ModelRepository;
 import hurricane.all.in.one.repository.noaa.HurricaneRepository;
 import hurricane.all.in.one.repository.noaa.MesoRepository;
+import hurricane.all.in.one.util.ncar.Image;
 import hurricane.all.in.one.util.ncar.NCAR;
 import hurricane.all.in.one.util.noaa.MESO;
 import hurricane.all.in.one.util.noaa.NHC;
@@ -114,5 +115,10 @@ public class HaioServiceImpl implements HaioService {
 	
 	public List<Meso> getMeso() {
 		return mesoRepository.findAllByZone(this.zone.getName());
+	}
+	
+	public byte[] getImage(String imgUrl) throws IOException {
+		Image image = new Image(imgUrl);
+		return image.getImage();
 	}
 }
