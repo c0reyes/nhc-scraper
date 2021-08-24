@@ -8,8 +8,8 @@
 		<version>2.3.4.RELEASE</version>
 		<relativePath />
 	</parent>
-	<groupId>hurricane-all-in-one</groupId>
-	<artifactId>hurricane-all-in-one</artifactId>
+	<groupId>nhc.scraper</groupId>
+	<artifactId>nhc-scraper</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<dependencies>
