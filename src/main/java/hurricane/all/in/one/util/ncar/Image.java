@@ -10,6 +10,8 @@ public class Image {
 	private byte[] imageBytes;
 	private String imageUrl;
 	
+	private static String URL = "http://hurricanes.ral.ucar.edu/";
+	
 	public Image() {
 		
 	}
@@ -24,8 +26,9 @@ public class Image {
 	}
 	
 	public void setImage() throws IOException {
-		if(imageUrl.indexOf("http://hurricanes.ral.ucar.edu/") == -1)
+		if(imageUrl.indexOf(URL) == -1)
 			return;
+		
 		URL url = new URL(imageUrl);
 	    InputStream is = url.openStream();
 	    imageBytes = StreamUtils.copyToByteArray(is);
